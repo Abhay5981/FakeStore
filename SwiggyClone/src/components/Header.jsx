@@ -57,7 +57,7 @@ const links = [
       ></div>
 
     </div>
-    <header className='p-2 shadow-xl text-gray-700 '>
+    <header className='p-2 shadow-xl text-gray-700 sticky top-0 bg-white z-[9999]'>
       <div className='max-w-[1200px] mx-auto flex items-center'>
        <div className='w-[100px]'>
         <img className='w-full' src="images/logo.png" alt="" />
