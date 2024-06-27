@@ -2,7 +2,7 @@ import React from "react";
 
 function Card(props) {
   return (
-    <div className="w-[270px] shrink-0 grow ">
+    <div className="w-[285px] shrink-0 grow " >
       <div className=" group h-[180px] rounded-[15px] overflow-hidden relative">
         <img
           className=" group-hover:scale-110 duration-100 object-cover w-full h-full "

@@ -18,14 +18,14 @@ function Category() {
         }, [])
 
         const nextSlide = () =>{
-            console.log(categories.length)
-            if (categories.length - 8 == slide)  return false
-            setSlide(slide + 3)
+            
+            if (categories.length - 8 == slide) return false
+            setSlide(slide + 3) 
         }
 
         const prevSlide = () =>{
             if(slide == 0)  return false
-            setSlide(slide - 3)
+            setSlide(slide - 3) 
         }
 
   return (

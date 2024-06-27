@@ -21,6 +21,18 @@ function OnlineDelivery() {
       <div className=" my-2 flex items-center justify-between">
         <div className="font-bold text-xl">Restaurants with online food delivery in Bangalore</div>
       </div>
+      <div>
+        <div className='max-w-[1200px] mx-1 flex my-5 gap-4  items-center '> 
+          <div className='p-2 border-[2px] rounded-2xl '>Filter</div>
+          <div className='p-2 border-[2px] rounded-2xl '>Sort By</div>
+          <div className='p-2 border-[2px] rounded-2xl '>Fast Delivery</div>
+          <div className='p-2 border-[2px] rounded-2xl '>New on Swiggy</div>
+          <div className='p-2 border-[2px] rounded-2xl '>Rating 4.0+</div>
+          <div className='p-2 border-[2px] rounded-2xl '>Pure Veg</div>
+          <div className='p-2 border-[2px] rounded-2xl '>Offer</div>
+        </div>
+      </div>
+      
       <div className='grid grid-cols-4 gap-3'>
         {
           restaurant.map(
